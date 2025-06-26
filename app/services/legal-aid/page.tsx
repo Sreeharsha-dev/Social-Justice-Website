@@ -68,7 +68,7 @@ export default function LegalAidPage() {
               <div className="inline-block rounded-lg bg-primary/10 p-3 mb-4">
                 <FileText className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Family Law</h3>
+              {/* <h3 className="text-xl font-bold mb-3">Family Law</h3>
               <p className="text-muted-foreground">
                 We provide assistance with divorce, child custody, child support, domestic violence protection orders,
                 and other family law matters.
@@ -77,7 +77,7 @@ export default function LegalAidPage() {
             <div className="bg-background p-6 rounded-lg shadow-md">
               <div className="inline-block rounded-lg bg-primary/10 p-3 mb-4">
                 <FileText className="h-6 w-6 text-primary" />
-              </div>
+              </div> */}
               <h3 className="text-xl font-bold mb-3">Housing Law</h3>
               <p className="text-muted-foreground">
                 We help with eviction defense, landlord-tenant disputes, housing discrimination, and public housing
@@ -88,7 +88,7 @@ export default function LegalAidPage() {
               <div className="inline-block rounded-lg bg-primary/10 p-3 mb-4">
                 <FileText className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Immigration Law</h3>
+              {/* <h3 className="text-xl font-bold mb-3">Immigration Law</h3>
               <p className="text-muted-foreground">
                 We assist with asylum applications, DACA renewals, naturalization, and other immigration matters.
               </p>
@@ -96,7 +96,7 @@ export default function LegalAidPage() {
             <div className="bg-background p-6 rounded-lg shadow-md">
               <div className="inline-block rounded-lg bg-primary/10 p-3 mb-4">
                 <FileText className="h-6 w-6 text-primary" />
-              </div>
+              </div> */}
               <h3 className="text-xl font-bold mb-3">Consumer Protection</h3>
               <p className="text-muted-foreground">
                 We help with debt collection defense, bankruptcy, predatory lending, and consumer fraud cases.

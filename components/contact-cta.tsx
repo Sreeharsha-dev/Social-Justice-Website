@@ -29,7 +29,7 @@ export default function ContactCta() {
             <Button size="lg" className="bg-white text-primary hover:bg-white/90" asChild>
               <Link href="/contact">Contact Us</Link>
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10" asChild>
+            <Button size="lg" variant="outline" className="border-white text-black hover:bg-white/10" asChild>
               <Link href="/careers?type=volunteer">Volunteer With Us</Link>
             </Button>
           </div>

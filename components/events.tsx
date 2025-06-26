@@ -33,7 +33,7 @@ const eventsData = [
     description:
       "Our annual fundraising gala brings together supporters, partners, and community members for an evening of celebration and support for our cause. Join us for dinner, entertainment, and a silent auction to raise funds for our legal aid programs. This is our biggest fundraising event of the year.",
     details:
-      "Tickets are $150 per person or $1,200 for a table of eight. Formal attire is requested. The evening will include a three-course dinner, live music, keynote speaker, and silent auction featuring items donated by local businesses and artists.",
+      "Tickets are ₹12,000 per person or ₹96,000 for a table of eight. Formal attire is requested. The evening will include a three-course dinner, live music, keynote speaker, and silent auction featuring items donated by local businesses and artists.",
   },
   {
     id: 3,
@@ -57,7 +57,7 @@ const eventsData = [
     description:
       "A two-day conference focusing on juvenile justice reform and youth advocacy. This event brings together legal professionals, social workers, educators, and youth advocates to discuss current issues and innovative approaches to juvenile justice.",
     details:
-      "Registration fee is $75 for professionals and $25 for students. The conference includes keynote speeches, panel discussions, workshops, and networking opportunities. Continuing education credits are available for attorneys and social workers.",
+      "Registration fee is ₹6,000 for professionals and ₹2,000 for students. The conference includes keynote speeches, panel discussions, workshops, and networking opportunities. Continuing education credits are available for attorneys and social workers.",
   },
 ]
 

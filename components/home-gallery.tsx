@@ -8,64 +8,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { Calendar, MapPin } from "lucide-react"
-
-// Sample gallery data - showing only 6 most recent items
-const galleryData = [
-  {
-    id: 1,
-    title: "Legal Aid Workshop",
-    date: "March 15, 2023",
-    location: "Community Center",
-    image: "/placeholder.svg?height=600&width=800",
-    description:
-      "Our legal aid workshop provided free legal advice to over 50 community members on issues ranging from housing rights to immigration concerns.",
-  },
-  {
-    id: 2,
-    title: "Youth Advocacy Program",
-    date: "February 20, 2023",
-    location: "Local High School",
-    image: "/placeholder.svg?height=600&width=800",
-    description:
-      "Our youth advocacy program engages high school students in discussions about social justice and empowers them to become advocates in their communities.",
-  },
-  {
-    id: 3,
-    title: "Community Outreach Event",
-    date: "January 10, 2023",
-    location: "Public Park",
-    image: "/placeholder.svg?height=600&width=800",
-    description:
-      "Our community outreach event brought together local organizations and community members to discuss pressing social issues and collaborate on solutions.",
-  },
-  {
-    id: 4,
-    title: "Annual Conference",
-    date: "December 5, 2022",
-    location: "Convention Center",
-    image: "/placeholder.svg?height=600&width=800",
-    description:
-      "Our annual conference featured keynote speakers, panel discussions, and workshops on various aspects of social justice and legal rights.",
-  },
-  {
-    id: 5,
-    title: "Volunteer Training",
-    date: "November 18, 2022",
-    location: "Office Headquarters",
-    image: "/placeholder.svg?height=600&width=800",
-    description:
-      "Our volunteer training program prepares individuals to assist with our legal aid clinics, community outreach events, and administrative tasks.",
-  },
-  {
-    id: 6,
-    title: "Fundraising Gala",
-    date: "October 22, 2022",
-    location: "Grand Hotel",
-    image: "/placeholder.svg?height=600&width=800",
-    description:
-      "Our annual fundraising gala raised over $100,000 to support our programs and services for the coming year.",
-  },
-]
+import { galleryData } from "@/lib/gallery-data"
 
 export default function HomeGallery() {
   const [ref, inView] = useInView({

@@ -9,58 +9,10 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } f
 import { Calendar, Clock, MapPin } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
+import { eventsData } from "@/lib/events-data"
 
-// Sample events data - showing only 4 most recent events
-const eventsData = [
-  {
-    id: 1,
-    title: "Legal Rights Workshop",
-    date: "April 15, 2023",
-    time: "10:00 AM - 12:00 PM",
-    location: "Community Center, 123 Main St",
-    image: "/placeholder.svg?height=400&width=600",
-    description:
-      "Join us for an informative workshop on understanding your legal rights in the workplace. Our expert attorneys will cover topics such as employment discrimination, workplace harassment, and wage theft.",
-    details:
-      "This free workshop will include a presentation, Q&A session, and one-on-one consultations with attorneys. Light refreshments will be provided. Registration is required as space is limited.",
-  },
-  {
-    id: 2,
-    title: "Annual Fundraising Gala",
-    date: "May 20, 2023",
-    time: "6:30 PM - 10:00 PM",
-    location: "Grand Hotel Ballroom, 456 Park Ave",
-    image: "/placeholder.svg?height=400&width=600",
-    description:
-      "Our annual fundraising gala brings together supporters, partners, and community members for an evening of celebration and support for our cause. Join us for dinner, entertainment, and a silent auction.",
-    details:
-      "Tickets are $150 per person or $1,200 for a table of eight. Formal attire is requested. The evening will include a three-course dinner, live music, keynote speaker, and silent auction.",
-  },
-  {
-    id: 3,
-    title: "Community Legal Clinic",
-    date: "June 10, 2023",
-    time: "1:00 PM - 5:00 PM",
-    location: "Public Library, 789 Elm St",
-    image: "/placeholder.svg?height=400&width=600",
-    description:
-      "Our monthly community legal clinic provides free legal consultations to those in need. Volunteer attorneys will be available to answer questions and provide guidance on various legal matters.",
-    details:
-      "No appointment necessary. Consultations are available on a first-come, first-served basis. Please bring any relevant documents related to your legal question.",
-  },
-  {
-    id: 4,
-    title: "Youth Justice Conference",
-    date: "July 8-9, 2023",
-    time: "9:00 AM - 4:00 PM",
-    location: "University Conference Center, 321 College Rd",
-    image: "/placeholder.svg?height=400&width=600",
-    description:
-      "A two-day conference focusing on juvenile justice reform and youth advocacy. This event brings together legal professionals, social workers, educators, and youth advocates.",
-    details:
-      "Registration fee is $75 for professionals and $25 for students. The conference includes keynote speeches, panel discussions, workshops, and networking opportunities.",
-  },
-]
+// Only show the first 4 events on the home page
+const displayedEvents = eventsData.slice(0, 4)
 
 export default function HomeEvents() {
   const [ref, inView] = useInView({
@@ -108,7 +60,7 @@ export default function HomeEvents() {
           animate={inView ? "visible" : "hidden"}
           className="grid md:grid-cols-2 lg:grid-cols-4 gap-6"
         >
-          {eventsData.map((event) => (
+          {displayedEvents.map((event) => (
             <motion.div key={event.id} variants={itemVariants}>
               <Card className="h-full overflow-hidden hover:shadow-lg transition-shadow duration-300 flex flex-col">
                 <div className="relative h-48 overflow-hidden">

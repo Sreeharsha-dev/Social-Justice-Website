@@ -61,7 +61,7 @@ const galleryData = [
     location: "Grand Hotel",
     image: "/placeholder.svg?height=600&width=800",
     description:
-      "Our annual fundraising gala raised over $100,000 to support our programs and services for the coming year.",
+      "Our annual fundraising gala raised over ₹75 lakh to support our programs and services for the coming year.",
   },
 ]
 

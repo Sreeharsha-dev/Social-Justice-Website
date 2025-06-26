@@ -32,30 +32,52 @@ export default function WhoWeArePage() {
             >
               <div className="flex items-center mb-6">
                 <div className="w-1 bg-primary h-8 mr-4"></div>
-                <h2 className="text-3xl font-bold">About The Social Justice Forum</h2>
+                <h2 className="text-3xl font-bold">About Us</h2>
               </div>
 
               <div className="space-y-6 text-muted-foreground">
                 <p>
-                  Rooted in love, justice, trust, respect for the dignity of life and to create a healthy, compassionate
-                  and responsive world, Social Justice Forum blossomed in the mind of its Founder to serve the unwanted,
-                  uncared, unloved and underserved to help them to achieve their full potential.
+                It is a voluntary, humanitarian, non-governmental, Non- Political, non-Communal, non-Sectarian and also non-profit making society. The benefits of the society can function any where India. That the society shall not carry out any activity outside of India.
+
                 </p>
 
                 <p>
-                  The Social Justice Forum, an empowered, dynamic, effective and vibrant organisation established in
-                  2010 in New York, USA owes its legal allegiance to Social Justice Charitable Trust under the Trust Act
-                  1961 to serve for the welfare of the underprivileged communities irrespective of caste, creed,
-                  language and religion.
+                1. To empower and promote Legal Rights through proper cell for all possible development and welfare of society.
+
                 </p>
 
                 <p>
-                  The Foundation embarks on the Noble Mission to spread love among the poor and to achieve extraordinary
-                  improvements in human life by promoting the well-being of humanity in all aspects, we mainly focus in
-                  the fields of education, health, community development, elderly care and disaster relief. The Social
-                  Justice Forum undertakes appropriate support programs, initiatives and social projects that have
-                  sustainable impact and are instrumental in transforming the lives of the poor. We strive to imitate
-                  St. Mother Teresa in all its programs, approach and in all the ways to make this world a better place
+                  
+2. To protect and awareness on Legal Rights for the needy people and detect the cases in the society through the proper channel and bringing it in front of Government.
+
+                </p>
+                <p>
+                3. The right to be protected against marketing of goods and services which are hazardous to life and property.
+
+                </p>
+                <p>
+                4. The right to be informed about the quality, quantity, potency, purity, standard and price of goods or services, as the case may be, so as to protect the consumers against unfair trade practices.
+                </p>
+                <p>
+                5. The right to be assured, wherever possible, of access to a variety of goods and services at competitive prices.
+                </p>
+                <p>
+                6. The right to be heard and to be assured that consumers' interests will receive due consideration at appropriate forums.
+                </p>
+                <p>
+                7. The right to seek redressal against unfair trade practices or restrictive trade practices or unscrupulous exploitation of consumers.
+                </p>
+                <p>
+                8. To provide support services to old age people, destitute and orphans by way of food and shelter with possible manner for their well being.
+                </p>
+                <p>
+                9. To conduct women empowerment and awareness programmes and trainings on Human Rights and Consumer Protection with the consideration of local public.
+                </p>
+                <p>
+10. To conduct health and sanitary awareness camps and programmes. To conduct care and education support for HIV/AIDS affected and infected persons including kith and kin of these persons by way of providing relief and rehabilitation activities.
+                </p>  
+                <p>
+                11. To consider the activities would be purely charitable/ non-religious in nature and not motivated for profit and the society shall be irrevocable.
                 </p>
               </div>
             </motion.div>
@@ -75,12 +97,12 @@ export default function WhoWeArePage() {
                   <div className="absolute -left-10 top-0 w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white">
                     <span className="text-lg">1</span>
                   </div>
-                  <div className="absolute -left-[5.5rem] top-1 text-primary font-bold text-xl">2010</div>
+                  <div className="absolute -left-[5.5rem] top-1 text-primary font-bold text-xl">2020</div>
                   <Card className="shadow-md">
                     <CardContent className="p-6">
                       <h3 className="text-xl font-bold text-primary mb-2">Foundation Established</h3>
                       <p className="text-muted-foreground">
-                        The Social Justice Forum was established & registered in 2010
+                        The Social Justice And Legal Rights Forum was founded to empower and uplift the underprivileged, marking the beginning of our journey for justice and equality.
                       </p>
                     </CardContent>
                   </Card>
@@ -90,12 +112,12 @@ export default function WhoWeArePage() {
                   <div className="absolute -left-10 top-0 w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white">
                     <span className="text-lg">2</span>
                   </div>
-                  <div className="absolute -left-[5.5rem] top-1 text-primary font-bold text-xl">2010</div>
+                  <div className="absolute -left-[5.5rem] top-1 text-primary font-bold text-xl">2022</div>
                   <Card className="shadow-md">
                     <CardContent className="p-6">
-                      <h3 className="text-xl font-bold text-primary mb-2">Social Justice Anbu Illam (Orphanage)</h3>
+                      <h3 className="text-xl font-bold text-primary mb-2">Empowering Young Learners</h3>
                       <p className="text-muted-foreground">
-                        Our first project The Social Justice Anbu Illam (Orphanage) was launched in 2010
+                        Distributed essential accessories to government school children, helping them pursue their education with confidence and dignity.
                       </p>
                     </CardContent>
                   </Card>
@@ -105,13 +127,12 @@ export default function WhoWeArePage() {
                   <div className="absolute -left-10 top-0 w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white">
                     <span className="text-lg">3</span>
                   </div>
-                  <div className="absolute -left-[5.5rem] top-1 text-primary font-bold text-xl">2012</div>
+                  <div className="absolute -left-[5.5rem] top-1 text-primary font-bold text-xl">2022</div>
                   <Card className="shadow-md">
                     <CardContent className="p-6">
-                      <h3 className="text-xl font-bold text-primary mb-2">Legal Aid Program</h3>
+                      <h3 className="text-xl font-bold text-primary mb-2">Celebrating Academic Excellence</h3>
                       <p className="text-muted-foreground">
-                        Launched our comprehensive legal aid program to provide free legal services to underserved
-                        communities
+                        Honored a young talent who achieved Mandal First in 10th examinations, supporting her next steps with a scholarship for further studies.
                       </p>
                     </CardContent>
                   </Card>
@@ -121,12 +142,12 @@ export default function WhoWeArePage() {
                   <div className="absolute -left-10 top-0 w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white">
                     <span className="text-lg">4</span>
                   </div>
-                  <div className="absolute -left-[5.5rem] top-1 text-primary font-bold text-xl">2015</div>
+                  <div className="absolute -left-[5.5rem] top-1 text-primary font-bold text-xl">2023</div>
                   <Card className="shadow-md">
                     <CardContent className="p-6">
-                      <h3 className="text-xl font-bold text-primary mb-2">Community Outreach Expansion</h3>
+                      <h3 className="text-xl font-bold text-primary mb-2">Lifesavers in Action</h3>
                       <p className="text-muted-foreground">
-                        Expanded our community outreach programs to five additional cities across the country
+                        Provided urgent blood support to over 90 individuals, including pregnant women, making a life-saving difference in critical moments.
                       </p>
                     </CardContent>
                   </Card>
@@ -136,12 +157,12 @@ export default function WhoWeArePage() {
                   <div className="absolute -left-10 top-0 w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white">
                     <span className="text-lg">5</span>
                   </div>
-                  <div className="absolute -left-[5.5rem] top-1 text-primary font-bold text-xl">2020</div>
+                  <div className="absolute -left-[5.5rem] top-1 text-primary font-bold text-xl">2024</div>
                   <Card className="shadow-md">
                     <CardContent className="p-6">
-                      <h3 className="text-xl font-bold text-primary mb-2">10 Year Anniversary</h3>
+                      <h3 className="text-xl font-bold text-primary mb-2">Supporting Future Scholars</h3>
                       <p className="text-muted-foreground">
-                        Celebrated 10 years of service with the launch of our digital advocacy platform
+                        Distributed exam accessories to government students, empowering the next generation to excel in their academic pursuits.
                       </p>
                     </CardContent>
                   </Card>
@@ -163,18 +184,16 @@ export default function WhoWeArePage() {
             <div className="bg-white p-8 rounded-lg shadow-md">
               <h3 className="text-2xl font-bold text-primary mb-4">Our Mission</h3>
               <p className="text-muted-foreground">
-                To promote social justice and protect legal rights through advocacy, education, and direct services,
-                ensuring that all individuals have equal access to justice and opportunities regardless of their
-                socioeconomic status, race, gender, or background.
+              To promote legal awareness, uphold consumer rights, and support vulnerable communities through voluntary, humanitarian efforts. We are committed to empowering citizens with knowledge, protecting the underprivileged, advocating for justice, and offering welfare services—ensuring all actions remain non-political, non-profit, and inclusive across India.
+
+
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-md">
               <h3 className="text-2xl font-bold text-primary mb-4">Our Vision</h3>
               <p className="text-muted-foreground">
-                A world where justice, equality, and human dignity are upheld for all people; where systemic barriers to
-                justice are eliminated; and where every individual has the knowledge, resources, and support needed to
-                advocate for themselves and their communities.
+              A just, informed, and compassionate society where every individual, regardless of background, enjoys equal legal rights, consumer protection, social dignity, and access to essential services.
               </p>
             </div>
           </div>
@@ -188,22 +207,68 @@ export default function WhoWeArePage() {
             <h2 className="text-3xl font-bold">Our Team</h2>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[1, 2, 3, 4].map((i) => (
-              <div key={i} className="bg-white rounded-lg shadow-md overflow-hidden">
+          {/* Horizontally scrollable team members */}
+          <div className="flex gap-6 overflow-x-auto pb-4" style={{ WebkitOverflowScrolling: 'touch' }}>
+            {[
+              {
+               name: "Naresh Babu Reddycherla",
+               role: "Founder & President",
+               image: "/images/naresh.jpg",
+               description: "Visionary leader with 15+ years in social justice and nonprofit advocacy."
+              },
+                {
+                  name: "D.Sudeer Kumar",
+                  role: "Vice President",
+                  image: "/images/vicepresident.jpg",
+                  description: "Legal expert committed to advancing human rights and legal aid."
+                },
+                {
+                  name: "P. Naveen Chandrakanth",
+                  role: "Secretary",
+                  image: "/images/image.png",
+                  description: "Drives initiatives in public health, education, and legal awareness."
+                },
+                {
+                  name: "C. Yugandhar",
+                  role: "Joint Secretary",
+                  image: "/images/image.png",
+                  description: "Manages volunteer coordination and community development events."
+                },
+                
+                {
+                  name: "Sumathi Chalasani",
+                  role: "Treasurer",
+                  image: "https://th.bing.com/th/id/OIP.ooDzxNLznRyw2Qfck-9rcwHaHa?r=0&rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3",
+                  description: "Experienced in nonprofit finance and grassroots community engagement."
+                },
+                {
+                  name: "T. Omkar",
+                  role: "Executive Member",
+                  image: "/images/image.png",
+                  description: "Supports outreach operations and facilitates welfare programs."
+                },
+                {
+                  name: "M. Raja",
+                  role: "Executive Member",
+                  image: "/images/image.png",
+                  description: "Assists in mobilizing community resources and organizing initiatives."
+                }
+
+            ].map((member, i) => (
+              <div key={i} className="bg-white rounded-lg shadow-md overflow-hidden min-w-[200px] max-w-xs flex-shrink-0">
                 <div className="relative h-64 w-full">
                   <Image
-                    src={`/placeholder.svg?height=300&width=300`}
-                    alt={`Team Member ${i}`}
+                    src={member.image}
+                    alt={member.name}
                     fill
                     className="object-cover"
                   />
                 </div>
                 <div className="p-4">
-                  <h3 className="text-xl font-bold">John Doe</h3>
-                  <p className="text-primary font-medium">Executive Director</p>
+                  <h3 className="text-xl font-bold">{member.name}</h3>
+                  <p className="text-primary font-medium">{member.role}</p>
                   <p className="text-muted-foreground mt-2">
-                    With over 15 years of experience in social justice advocacy and nonprofit leadership.
+                    {member.description}
                   </p>
                 </div>
               </div>

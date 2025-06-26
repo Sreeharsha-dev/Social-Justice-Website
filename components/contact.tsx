@@ -122,7 +122,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Email</h4>
-                    <p className="text-muted-foreground">info@socialjusticeforum.org</p>
+                    <p className="text-muted-foreground">contact@socialjusticeandlegalrightsforum.com</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -131,7 +131,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Phone</h4>
-                    <p className="text-muted-foreground">(123) 456-7890</p>
+                    <p className="text-muted-foreground">(+91) 87119 66999</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -141,9 +141,9 @@ export default function Contact() {
                   <div>
                     <h4 className="font-semibold mb-1">Address</h4>
                     <p className="text-muted-foreground">
-                      123 Justice Street, Suite 456
+                      Tirupati
                       <br />
-                      New York, NY 10001
+                      Andhra Pradesh, India
                     </p>
                   </div>
                 </div>

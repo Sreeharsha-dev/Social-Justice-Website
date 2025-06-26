@@ -13,44 +13,44 @@ export default function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center space-x-2">
               <div className="relative w-10 h-10">
-                <Image src="/placeholder.svg?height=40&width=40" alt="Logo" fill className="object-contain" />
+                <Image src="/images/hero.jpg?height=40&width=40" alt="Logo" fill className="object-contain" />
               </div>
-              <span className="font-bold text-lg">Social Justice Forum</span>
+              <span className="font-bold text-lg">Social Justice & Legal Rights Forum</span>
             </Link>
             <p className="text-muted-foreground">
               Advocating for justice and equality for all through legal aid, education, and community engagement.
             </p>
             <div className="flex space-x-4">
               <Link
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61577863854037"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook className="h-5 w-5" />
               </Link>
-              <Link
+              {/* <Link
                 href="#"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Twitter"
               >
                 <Twitter className="h-5 w-5" />
-              </Link>
+              </Link> */}
               <Link
-                href="#"
+                href="https://www.instagram.com/socialjusticeandlegalrights/"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5" />
               </Link>
               <Link
-                href="#"
+                href="http://www.linkedin.com/in/social-justice-and-legal-rights-forum"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="h-5 w-5" />
               </Link>
               <Link
-                href="#"
+                href="https://www.youtube.com/channel/UCUJ-iUnuNXvth6nzZXtFKwQ"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="YouTube"
               >
@@ -92,6 +92,11 @@ export default function Footer() {
                   Contact
                 </Link>
               </li>
+              <li>
+                <Link href="/privacy-policy" className="text-muted-foreground hover:text-primary transition-colors">
+                  Privacy & Policy
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -111,7 +116,7 @@ export default function Footer() {
                   Community Outreach
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="/services/policy-advocacy"
                   className="text-muted-foreground hover:text-primary transition-colors"
@@ -123,7 +128,7 @@ export default function Footer() {
                 <Link href="/services/education" className="text-muted-foreground hover:text-primary transition-colors">
                   Education & Research
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="/careers?type=volunteer"
@@ -135,7 +140,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="font-bold text-lg mb-4">Newsletter</h3>
             <p className="text-muted-foreground mb-4">
               Subscribe to our newsletter to receive updates on our work and upcoming events.
@@ -147,7 +152,7 @@ export default function Footer() {
                 <span className="sr-only">Subscribe</span>
               </Button>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="mt-12 pt-8 border-t border-border">
@@ -160,7 +165,7 @@ export default function Footer() {
                 href="/privacy-policy"
                 className="text-sm text-muted-foreground hover:text-primary transition-colors"
               >
-                Privacy Policy
+                Privacy & Policy
               </Link>
               <Link
                 href="/terms-of-service"

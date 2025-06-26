@@ -116,7 +116,7 @@ export default function WorkDone() {
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">•</span>
-                    <span>Secured over $2 million in settlements for victims of discrimination</span>
+                    <span>Secured over ₹15 crore in settlements for victims of discrimination</span>
                   </li>
                 </ul>
               </div>

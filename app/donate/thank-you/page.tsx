@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { CheckCircle } from "lucide-react"
+import { CheckCircle, IndianRupee } from "lucide-react"
 
 export default function ThankYouPage() {
   return (
@@ -24,11 +24,18 @@ export default function ThankYouPage() {
               </div>
               <div className="flex justify-between">
                 <span className="text-muted-foreground">Date:</span>
-                <span className="font-medium">{new Date().toLocaleDateString()}</span>
+                <span className="font-medium">{new Date().toLocaleDateString('en-IN')}</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-muted-foreground">Amount:</span>
-                <span className="font-bold">$50.00</span>
+                <span className="font-bold flex items-center">
+                  <IndianRupee className="h-4 w-4 mr-1" />
+                  {Math.floor(Math.random() * 5000 + 1000).toLocaleString('en-IN')}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="text-muted-foreground">Payment Method:</span>
+                <span className="font-medium">Razorpay</span>
               </div>
             </div>
             <p className="text-sm text-muted-foreground">

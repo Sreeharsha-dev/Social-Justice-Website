@@ -34,9 +34,9 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href="/" className="flex items-center space-x-2">
             <div className="relative w-10 h-10">
-              <Image src="/placeholder.svg?height=40&width=40" alt="Logo" fill className="object-contain" />
+              <Image src="/images/hero.jpg?height=40&width=40" alt="Logo" fill className="object-contain" />
             </div>
-            <span className="font-bold text-lg md:text-xl">Social Justice Forum</span>
+            <span className="font-bold text-lg md:text-xl">Social Justice & Legal Rights Forum</span>
           </Link>
 
           {/* Desktop Navigation */}

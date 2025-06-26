@@ -11,9 +11,9 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-primary-foreground/50 z-10" />
         <div
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-contain bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('/placeholder.svg?height=1080&width=1920')",
+            backgroundImage: "url('/images/logo.jpg?height=900&width=800')",
           }}
         />
       </div>
@@ -79,7 +79,7 @@ export default function Hero() {
             <Button size="lg" className="bg-white text-primary hover:bg-white/90" asChild>
               <Link href="#about">Learn More</Link>
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10" asChild>
+            <Button size="lg" variant="outline" className="border-white text-black hover:bg-white/10" asChild>
               <Link href="#contact">Get Involved</Link>
             </Button>
           </motion.div>

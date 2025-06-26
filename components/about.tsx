@@ -27,8 +27,7 @@ export default function About() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Mission & Vision</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-muted-foreground max-w-3xl mx-auto">
-            Learn about our history, values, and the driving force behind our commitment to social justice and legal
-            rights.
+            The Social Justice & Legal Rights Forum is a non-profit organization dedicated to advocating for the rights of marginalized communities, providing legal assistance to those in need, and working towards a more just and equitable society. We believe that access to justice is a fundamental right, not a privilege.
           </p>
         </motion.div>
 
@@ -43,17 +42,13 @@ export default function About() {
             <div>
               <h3 className="text-2xl font-bold mb-3">Our Mission</h3>
               <p className="text-muted-foreground">
-                The Social Justice & Legal Rights Forum is dedicated to advocating for the rights of marginalized
-                communities, providing legal assistance to those in need, and working towards a more just and equitable
-                society. We believe that access to justice is a fundamental right, not a privilege.
+                Our mission is to empower individuals and communities by providing them with the tools and resources they need to navigate the legal system and advocate for their rights. We believe that everyone deserves to have access to justice, regardless of their background or circumstances.
               </p>
             </div>
             <div>
               <h3 className="text-2xl font-bold mb-3">Our Vision</h3>
               <p className="text-muted-foreground">
-                We envision a world where every individual has equal access to justice, where human rights are respected
-                and protected, and where social inequalities are addressed through systemic change. We strive to be at
-                the forefront of this transformation.
+                Our vision is to create a society where everyone has access to the legal system, where their rights are respected and protected, and where social inequalities are addressed through systemic change. We strive to be at the forefront of this transformation.
               </p>
             </div>
             <div>
@@ -80,15 +75,13 @@ export default function About() {
               <div
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('/placeholder.svg?height=800&width=600')",
+                  backgroundImage: "url('/images/mission.png?height=800&width=600')",
                 }}
               ></div>
               <div className="absolute bottom-0 left-0 right-0 p-6 z-20">
                 <h3 className="text-2xl font-bold text-white mb-2">Our History</h3>
                 <p className="text-white/90">
-                  Founded in 2010, the Social Justice & Legal Rights Forum has grown from a small group of dedicated
-                  volunteers to a nationally recognized organization with a track record of successful advocacy and
-                  community impact.
+                The Social Justice & Legal Rights Forum is a non-profit organization dedicated to advocating for the rights of marginalized communities, providing legal assistance to those in need, and working towards a more just and equitable society. We believe that access to justice is a fundamental right, not a privilege.
                 </p>
               </div>
             </div>
