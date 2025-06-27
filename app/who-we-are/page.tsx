@@ -225,7 +225,7 @@ export default function WhoWeArePage() {
                 {
                   name: "P. Naveen Chandrakanth",
                   role: "Secretary",
-                  image: "/images/image.png",
+                  image: "/images/NaveenChandra.jpg",
                   description: "Drives initiatives in public health, education, and legal awareness."
                 },
                 {
