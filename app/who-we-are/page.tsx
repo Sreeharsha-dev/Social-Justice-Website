@@ -213,7 +213,7 @@ export default function WhoWeArePage() {
               {
                name: "Naresh Babu Reddycherla",
                role: "Founder & President",
-               image: "/images/naresh.jpg",
+               image: "/images/Naresh.jpg",
                description: "Visionary leader with 15+ years in social justice and nonprofit advocacy."
               },
                 {
